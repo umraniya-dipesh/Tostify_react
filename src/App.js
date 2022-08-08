@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import CleanupFun_useEffect from "./components/CleanupFun_useEffect";
+import ToastifyDemo from "./components/ToastifyDemo";
+import USeEffect_pratice from "./components/USeEffect_pratice";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* 1. USeEffect_pratice is change counter state as increment on click button and also change increment in taskbar increment eg. chat (2) z*/}
+      {/* <USeEffect_pratice/> */}
+
+      {/* 2. Print dyanamic window screen size on resposive  */}
+      {/* <CleanupFun_useEffect/> */}
+
+      {/* 3. Toastify Demo example */}
+      <ToastifyDemo />
+    </>
   );
-}
+};
 
 export default App;
