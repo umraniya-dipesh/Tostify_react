@@ -7,10 +7,10 @@ const App = () => {
   return (
     <>
       {/* 1. USeEffect_pratice is change counter state as increment on click button and also change increment in taskbar increment eg. chat (2) z*/}
-      {/* <USeEffect_pratice/> */}
+      <USeEffect_pratice/>
 
       {/* 2. Print dyanamic window screen size on resposive  */}
-      {/* <CleanupFun_useEffect/> */}
+      <CleanupFun_useEffect/>
 
       {/* 3. Toastify Demo example */}
       <ToastifyDemo />

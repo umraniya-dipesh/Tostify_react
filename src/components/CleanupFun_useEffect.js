@@ -15,7 +15,7 @@ const CleanupFun_useEffect = () => {
     };
   });
   return (
-    <div className="container">
+    <div className="container my-3">
       <div className="wrapper text-center">
         <h3>The size of screen window is :- </h3>
         <h2>
